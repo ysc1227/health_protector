@@ -1,0 +1,13 @@
+label,strength,model,accuracy,0_precision,0_recall,0_f1,1_precision,1_recall,1_f1,features
+HE_obe,strong,lgbm,0.99,0.99,0.99,0.99,0.99,0.99,0.99,"['HE_ht', 'HE_wt', 'BP16_1']"
+HE_obe,week,lgbm,0.99,0.99,1.0,0.99,1.0,0.99,0.99,"['HE_ht', 'HE_wt']"
+HE_HCHOL,strong,lgbm,0.68,0.73,0.6,0.66,0.64,0.77,0.7,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
+HE_HCHOL,week,lgbm,0.68,0.73,0.6,0.66,0.64,0.77,0.7,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
+HE_HTG,strong,lgbm,0.63,0.66,0.61,0.64,0.61,0.66,0.63,"['age', 'HE_ht', 'HE_wt']"
+HE_HTG,week,lgbm,0.63,0.66,0.61,0.64,0.61,0.66,0.63,"['age', 'HE_ht', 'HE_wt']"
+HE_anem,strong,lgbm,0.67,0.68,0.66,0.67,0.66,0.69,0.68,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
+HE_anem,week,lgbm,0.67,0.68,0.66,0.67,0.66,0.69,0.68,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
+HE_HP,strong,lgbm,0.85,0.92,0.78,0.84,0.79,0.92,0.85,"['HE_wt', 'HE_ht', 'age', 'BD2', 'BE8_1', 'BE3_31', 'LS_FRUIT', 'BP5', 'BP16_1', 'occp']"
+HE_HP,week,lgbm,0.72,0.72,0.71,0.72,0.72,0.73,0.73,"['age', 'HE_ht', 'HE_wt']"
+HE_DM_HbA1c,strong,lgbm,0.7,0.76,0.61,0.68,0.65,0.8,0.72,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
+HE_DM_HbA1c,week,lgbm,0.72,0.75,0.65,0.7,0.69,0.79,0.74,"['age', 'HE_ht', 'HE_wt', 'BE8_1']"
